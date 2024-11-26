@@ -24,6 +24,10 @@ def program2():
   f.close()
 program2()
 ```
+### OUTPUT SCREENSHOT
+
+<img width="1481" alt="Screenshot 2024-11-26 at 11 36 04" src="https://github.com/user-attachments/assets/524d7cbc-372e-4e96-9a30-19f4a695e4f0">
+
 ## 3. Write a python program to find the total occurrences of a specific word from a text file.
 
 ## 4. Write a Python program to read first n lines of a file.
