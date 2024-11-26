@@ -22,7 +22,18 @@ def program2():
 program2()
 ```
 ## 3. Write a python program to find the total occurrences of a specific word from a text file.
-
+```
+cnt=0
+word_search=input("Enter the words to search:")
+with open("merge.txt","r")as f1:
+for data in f1:
+words=data.split()
+for word in words:
+if (word == word_search):
+cnt+=1
+print(word_search," found",cnt," times from the file")
+program6()
+```
 ## 4. Write a Python program to read first n lines of a file.
 
 ## 5. Write a Python program to know the cursor position and print the text according to below-given specification
