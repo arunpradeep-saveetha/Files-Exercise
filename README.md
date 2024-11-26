@@ -1,10 +1,10 @@
-## 1. Write a python program that writes “Hello world” into a file.
+## 1. Write a python program that writes “Hello world” into a file. EXAMPLE
 ```
 f=open("ex88.txt", 'w')
 f.write("hello world")
 f.close()
 ```
-## 2. Write a python program to create a text file “MyFile.txt” and ask the user to write separate 3 lines with three input statements from the user.
+## 2. Write a python program to create a text file “MyFile.txt” and ask the user to write separate 3 lines with three input statements from the user. EXAMPLE
 ```
 def program2():
   f=open("MyFile.txt", "w")
