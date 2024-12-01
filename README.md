@@ -1,5 +1,5 @@
 ## 1. Write a python program that writes “Hello world” into a file. EXAMPLE
-```
+```python
 f=open("ex88.txt", 'w')
 f.write("hello world")
 f.close()
@@ -8,7 +8,7 @@ f.close()
 <img width="1481" alt="Screenshot 2024-11-26 at 11 29 31" src="https://github.com/user-attachments/assets/d6759886-b13a-436e-9d55-49ace30548ed">
 
 ## 2. Write a python program to create a text file “MyFile.txt” and ask the user to write separate 3 lines with three input statements from the user. EXAMPLE
-```
+```python
 def program2():
   f=open("MyFile.txt", "w")
   linel=input("Enter the text:")
